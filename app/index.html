@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>PMG me</title>
+  <meta name="description" content="PMG">
+  <meta name="keywords" content="PMG">
+
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+  <link rel="stylesheet" href="./css/libs.min.css">
+  <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body id="main-page">    
+    
+  <div class="loader">
+    <div class="loader__content">Loading....</div>
+  </div>
+
+  <div id="app" class="page-wrapper">
+
+    <div class="header-mobile">
+      Header mobile
+    </div>
+
+    <div class="burger-menu">
+      <a href="#" class="burger-menu__btn">
+          <span class="burger-menu__lines"></span>
+      </a>
+      <div class="burger-menu__overlay"></div>
+    </div>
+
+    <div class="nav">
+      <div class="header">
+        <a href="/" class="logo">
+          <img src="./img/logo.png" alt="">
+        </a>
+      </div>
+      
+      <div class="main-menu">
+        <ul>
+          <li class="link">
+            <a href="#home">Home</a>
+            <ul class="submenu-mobile">
+              <li class="link">
+                <a href="#home1">Home 1</a>
+              </li>
+              <li class="link">
+                <a href="#home2">Home 2</a>
+              </li>
+              <li class="link">
+                <a href="#home3">Home 3</a>
+              </li>
+            </ul>
+          </li>
+          <li class="link">
+            <a href="#service">Service</a>
+          </li>
+          <li class="link">
+            <a href="#about">About</a>
+          </li>
+          <li class="link">
+            <a href="#advantage">Advantage</a>
+          </li>
+          <li class="link">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer">
+        Footer
+      </div>
+    </div>
+
+    <div class="submenu">
+      <ul>
+        <li class="link">
+          <a href="#home1">Home 1</a>
+        </li>
+        <li class="link">
+          <a href="#home2">Home 2</a>
+        </li>
+        <li class="link">
+          <a href="#home3">Home 3</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+
+      <div class="main" id="home1">
+        <div class="content">Home 1</div>
+        <div class="figure">
+          <div class="home-anime">
+            <div class="dot" style="top: -40px; left: -40px"><span class="dot__text">text1</span></div>
+            <div class="dot" style="top: -40px; left: 100%"><span class="dot__text">text2</span></div>
+            <div class="dot" style="top: 100%; left: -40px"><span class="dot__text">text3</span></div>
+            <div class="dot" style="top: -100%; left: 100%"><span class="dot__text">tex4</span></div>
+            <!-- <div class="dot"><span class="dot__text">text1</span></div>
+            <div class="dot"><span class="dot__text">text2</span></div>
+            <div class="dot"><span class="dot__text">text3</span></div>
+            <div class="dot"><span class="dot__text">tex4</span></div> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="main  d-none" id="home2">
+        <div class="content">Home 2</div>
+        <div class="figure"></div>
+      </div>
+
+      <div class="main d-none" id="home3">
+        <div class="content">Home 3</div>
+        <div class="figure"></div>
+      </div>
+
+      <div class="main d-none" id="service">
+        <div class="content">Service</div>
+        <div class="figure">
+          <div class="service-anime">
+            <div class="service-anime__item one">
+              <div class="service-anime__dot"></div>
+            </div>
+            <div class="service-anime__item two" style="transform: rotate(45deg)">
+              <div class="service-anime__dot"></div>
+            </div>  
+            <div class="service-anime__item three" style="transform: rotate(90deg)">
+              <div class="service-anime__dot"></div>
+            </div> 
+            <div class="service-anime__item four" style="transform: rotate(135deg)">
+              <div class="service-anime__dot "></div>
+            </div>
+            <div class="service-anime__item five" style="transform: rotate(180deg)">
+              <div class="service-anime__dot"></div>
+            </div>
+            <div class="service-anime__item six" style="transform: rotate(225deg)">
+              <div class="service-anime__dot"></div>
+            </div>
+            <div class="service-anime__item seven" style="transform: rotate(270deg)">
+              <div class="service-anime__dot"></div>
+            </div>
+            <div class="service-anime__item eight" >
+              <div class="service-anime__dot"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main d-none" id="about">
+        <div class="content">About</div>
+        <div class="figure"></div>
+      </div>
+
+      <div class="main d-none" id="advantage">
+        <div class="content">Advantage</div>
+        <div class="figure">
+          <div class="advantage-anime">
+            <div class="item">
+              <div class="dot"></div>
+              <div class="text">text1</div>
+            </div>
+            <div class="item" style="transform: rotate(240deg)">
+              <div class="dot" ></div>
+              <div class="text">text2</div>
+            </div>
+            <div class="item" style="transform: rotate(120deg)">
+              <div class="dot" ></div>
+              <div class="text">text3</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main d-none" id="contact">
+        <div class="content">Contact</div>
+        <div class="figure"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="./js/libs.min.js"></script>
+  <script src="./js/main.min.js"></script>
+  
+</body>
+
+</html>

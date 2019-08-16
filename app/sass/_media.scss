@@ -1,0 +1,58 @@
+@media (max-width: 1200px) {
+
+    .page-wrapper {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        height: 100vh;
+        left: -240px;
+        min-width: 220px;
+        transition: .5s;
+        z-index: 20;
+
+        &.d-block {
+            left: 0;
+        }
+    }
+
+    .burger-menu {
+        &__overlay {
+            display: block;
+        }
+    }
+
+    .header-mobile {
+        display: block;
+    }
+
+    .submenu {
+        display: none;
+    }
+
+    .submenu-mobile {
+        display: block;
+        margin: 0 !important;
+    }
+
+    .main {
+        flex-direction: column;
+        height: auto;
+        margin-top: 58px;
+    }
+
+    .content {
+        width: 100%;
+        min-height: 300px;
+    }
+
+    .figure {
+        width: 100%;
+        min-height: 300px;
+    }
+}
